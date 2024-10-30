@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backward Chaining || Ghost Code Night</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="icon" href="static/logo-i.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <h2>Sistem Diagnosis Penyakit Menggunakan Backward Chaining</h2>
+        <form method="POST">
+            <label for="symptoms">Masukkan gejala ?</label>
+            <input type="text" id="symptoms" name="symptoms" placeholder="misal: demam, batuk">
+            <button type="submit">Diagnosa</button>
+        </form>
+        <p id="result">{{ diagnosis }}</p>
+    </div>
+</body>
+</html>
